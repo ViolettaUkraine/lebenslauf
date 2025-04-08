@@ -1,0 +1,38 @@
+#ausbildund{
+    padding: 70px 0px;
+    background-color: var(--primary-color);
+    
+}
+#ausbildung h3 {
+    margin-top: 50px;
+    font-size: 60px;
+    text-align: center;
+}
+.flex_container{
+    margin-top: 50px;
+    display: flex;
+    gap: 40px;
+    justify-content: center;
+    flex-wrap: wrap;
+    
+}
+.flex_container2{
+    margin-top: 50px;
+    display: flex;
+    gap: 40px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.card { width: 350px;
+        background-color: var(--secondary-color);
+        border-radius: 70px;
+        padding: 60px 20px;
+
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 10px;
+}
+.card *{ 
+    text-align: center;
+}

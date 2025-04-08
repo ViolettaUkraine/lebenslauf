@@ -11,9 +11,10 @@
     width: 75;
 }
 .about_me_container h3{
-    font-size: 80px;
+    font-size: 70px;
 }
 .about_me_container p{
     text-align: justify;
     line-height: 175%;
 }
+@media(max-width: 800px){#about_me_selection padding: 50px 0;}
