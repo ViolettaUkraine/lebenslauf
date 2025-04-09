@@ -1,6 +1,8 @@
-#ausbildund{
-    padding: 70px 0px;
+#ausbildung{
+    padding: 70px 0;
     background-color: var(--primary-color);
+    
+    
     
 }
 #ausbildung h3 {
@@ -17,21 +19,20 @@
     
 }
 .flex_container2{
-    margin-top: 50px;
+    margin-top: 50px ;
     display: flex;
     gap: 40px;
     justify-content: center;
     flex-wrap: wrap;
 }
-.card { width: 350px;
+.card { width: 300px;
         background-color: var(--secondary-color);
         border-radius: 70px;
         padding: 60px 20px;
-
         display: flex;
         flex-direction: column;
         justify-content: center;
-        gap: 10px;
+        gap: 20px;
 }
 .card *{ 
     text-align: center;

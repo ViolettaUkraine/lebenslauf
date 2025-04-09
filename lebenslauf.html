@@ -7,6 +7,8 @@
     <link rel="stylesheet" href="header.css">
     <link rel="stylesheet" href="personliche_daten.css">
     <link rel="stylesheet" href="ausbidung.css">
+    <link rel="stylesheet" href="wedegang_grid.css">
+    <link rel="stylesheet" href="kentnisse.css">
     <title>Portfolio</title>
 </head>
 <body>
@@ -15,13 +17,14 @@
             <nav>
                 <ul>
                     <li><a href="#about_me_section"> Persönliche Daten </a> </li>
-                    <li><a href=""> Ausbildung </a></li>
-                    <li><a href="">Werdegang</a></li>
-                    <li><a href="">Kenntnisse & Fähigkeiten</a></li>
+                    <li><a href="#kentnisse">Kenntnisse & Fähigkeiten & Hobbys  </a></li>
+                    <li><a href="#ausbildung">Ausbildung</a></li>
+                    <li><a href="#werdegang">Werdegang</a></li>
                 </ul>
             </nav>
-           <h1> <span style="color: var(--main-brand-color);">Violetta Martyn</span></h1>
-           <h2>Fachinformatikerin Anwendungsentwicklung</h2>
+           <h1> Violetta Martyn</h1>
+           <div class="animation1"><h2>Fachinformatikerin Anwendungsentwicklung</h2>
+           </div>
 
         </div>
         <div class="circle"> 
@@ -33,13 +36,42 @@
         <div class="about_me_container">
             <h3>Persönliche Daten</h3>
 <p><strong>Adresse:</strong> Ellerneck 113d, 22149 Deutschland</p>
-<p><strong>Telefon:</strong> +49 174 8752733</p>
-<p><strong>Mail:</strong> violetto4ka123@gmail.com</p>
+<p><strong>Telefon:</strong> <a href="tel: +49 174 8752733"> +49 174 8752733 </a></p>
+<p><strong>Mail:</strong><a href="mailto:violetto4ka123@gmail.com"> violetto4ka123@gmail.com</a></p>
 <p><strong>Geburtstag/-ort:</strong> 25. Februar 1994, Ukraine</p>
         </div>
     </section>
     
-
+    <section id="kentnisse">
+        <h2>Kenntnisse & Fähigkeiten</h2>
+        <div class="flex_container3">
+          <div class="card1">
+            <p><strong>Sprachen:</strong><br> Ukrainisch, Russisch (Muttersprache), Deutsch (C1), Englisch (Grundkenntnisse)</p>
+          </div>
+          <div class="card1">
+            <p><strong>Software:</strong><br> MS Office, HTML, VS Code</p>
+          </div>
+          <div class="card1">
+            
+              <ul>Schnelle Auffassungsgabe</ul>
+              <ul>Kundenorientierung</ul>
+              <ul>Innovatives Denken</ul>
+              <ul>Komplexe Probleme lösen</ul>
+              <ul>Soziale Netzwerke pflegen</ul>
+            
+          </div>
+        </div>
+      
+        <div class="hobbys">
+          <h2>Hobbys</h2>
+          <div class="flex_container4">
+            <div class="card2"><p>Software & Code Editoren</p></div>
+            <div class="card2"><p>Sprachen lernen</p></div>
+            <div class="card2"><p>Sport</p></div>
+            <div class="card2"><p>Reisen</p></div>
+          </div>
+        </div>
+      </section>
     <section id="ausbildung"> 
         <h3>Ausbildung</h3>
         <div class="flex_container">
@@ -70,7 +102,31 @@
 
 
     </section>
-    <footer></footer>
+    <footer id="werdegang">
+        <h2>Werdegang</h2>
+        <div class="grid_container">
+            <div id = "item1" class="grid_items">
+                <p><strong>08/2024 – aktuell:</strong> <br> Umschulung Fachinformatikerin Anwendungsentwicklung</p>
+                
+            </div>
+            <div id = "item2" class="grid_items">
+              <p>  <strong>07/2022 – 06/2024:</strong> <br> Integration und Sprachkurse A1 bis C1 </p>
+                
+            </div>
+            <div id = "item3" class="grid_items"> <p>
+                <strong>09/2018 – 03/2022:</strong> <br> Sekretärin, Krankenhaus Ukraine <br>Schriftverkehr, Konferenzen, Verwaltung</p>
+            </div>
+            <div id = "item4" class="grid_items"> 
+                <p><strong>06/2015 – 08/2018:</strong> <br> Reise-Managerin, Join Up</p>
+            </div>
+            <div id = "item5" class="grid_items">
+                <p> <strong> 05/2013 – 02/2015:</strong> <br> Hotel-Managerin, Happy Hotels</p>
+            </div>
+        </div>
+        
+       
+    
+    </footer>
     
 </body>
 </html>

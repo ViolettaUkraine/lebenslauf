@@ -9,6 +9,25 @@ header{
 .header_text {
     width: 850;
 }
+h1{  font-size: 100px;
+    font-weight: bold;
+    font-family: Arial, sans-serif;
+    background: linear-gradient(270deg, #ff0000, #ffff00, #00ff00, #00ffff, #0000ff, #ff00ff, #ff0000);
+    background-size: 200% 200%;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: farbverlauf 5s linear infinite;
+    text-transform: uppercase;
+    
+}
+@keyframes farbverlauf {
+    0% {
+      background-position: 0% 50%;
+    }
+    100% {
+      background-position: 200% 50%;
+    }
+}
 .circle{ 
     height: 400px;
     width: 400px;
