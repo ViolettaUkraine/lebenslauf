@@ -47,10 +47,10 @@
     }
 
 
-.card:hover {
+.card1,.card2:hover {
     transform: translateY(-10px);
 }
 
-.card * {
+.card1,.card2 * {
     text-align: center;
 }
