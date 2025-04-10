@@ -1,0 +1,78 @@
+header{
+    padding: 100px 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    flex-wrap: wrap;
+}
+.header_text {
+    width: 850;
+}
+h1{  font-size: 100px;
+    font-weight: bold;
+    font-family: Arial, sans-serif;
+    background: linear-gradient(270deg, #ff0000, #ffff00, #00ff00, #00ffff, #0000ff, #ff00ff, #ff0000);
+    background-size: 200% 200%;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: farbverlauf 5s linear infinite;
+    text-transform: uppercase;
+    
+}
+@keyframes farbverlauf {
+    0% {
+      background-position: 0% 50%;
+    }
+    100% {
+      background-position: 200% 50%;
+    }
+}
+.circle{ 
+    height: 400px;
+    width: 400px;
+
+    max-width: 80vw;
+    max-width: 80vw;
+    
+    overflow: hidden;
+    border-radius: 60%;
+    border: 10px solid var(--main-brand-color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.circle img{
+   width: 140%; 
+   
+}
+nav{ 
+    margin-bottom: 120px;
+}
+nav ul {
+    list-style: none;
+    display:flex;
+    gap: 20px;
+}
+nav a {
+    color: var(--secondary-text-color);
+    text-decoration: none;
+    position: relative;
+    padding: 3px;
+
+}
+nav a:hover{
+    color: var(--text-color);
+} 
+nav a::after{ 
+    content: '';
+    height: 2px;
+    width: 0%;
+    background: var(--main-brand-color);
+    position: absolute;
+    bottom:0;
+    left: 0;
+}
+nav a:hover::after {
+    width: 100%;
+}
